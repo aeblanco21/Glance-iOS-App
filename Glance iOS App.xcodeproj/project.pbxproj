@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71CD6912B6404EA00C9D0D7 /* Glance_iOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CD6902B6404EA00C9D0D7 /* Glance_iOS_AppApp.swift */; };
+		F71CD6932B6404EA00C9D0D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CD6922B6404EA00C9D0D7 /* ContentView.swift */; };
+		F71CD6952B6404EA00C9D0D7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CD6942B6404EA00C9D0D7 /* Item.swift */; };
+		F71CD6972B6404EE00C9D0D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71CD6962B6404EE00C9D0D7 /* Assets.xcassets */; };
+		F71CD69A2B6404EE00C9D0D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71CD6992B6404EE00C9D0D7 /* Preview Assets.xcassets */; };
+		F71CD6A42B6404EE00C9D0D7 /* Glance_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CD6A32B6404EE00C9D0D7 /* Glance_iOS_AppTests.swift */; };
+		F71CD6AE2B6404EE00C9D0D7 /* Glance_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CD6AD2B6404EE00C9D0D7 /* Glance_iOS_AppUITests.swift */; };
+		F71CD6B02B6404EE00C9D0D7 /* Glance_iOS_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CD6AF2B6404EE00C9D0D7 /* Glance_iOS_AppUITestsLaunchTests.swift */; };
+		F71CD6BD2B64097300C9D0D7 /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CD6BC2B64097300C9D0D7 /* WKWebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F71CD6A02B6404EE00C9D0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71CD6852B6404EA00C9D0D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71CD68C2B6404EA00C9D0D7;
+			remoteInfo = "Glance iOS App";
+		};
+		F71CD6AA2B6404EE00C9D0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71CD6852B6404EA00C9D0D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71CD68C2B6404EA00C9D0D7;
+			remoteInfo = "Glance iOS App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F71CD68D2B6404EA00C9D0D7 /* Glance iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glance iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71CD6902B6404EA00C9D0D7 /* Glance_iOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glance_iOS_AppApp.swift; sourceTree = "<group>"; };
+		F71CD6922B6404EA00C9D0D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F71CD6942B6404EA00C9D0D7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F71CD6962B6404EE00C9D0D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F71CD6992B6404EE00C9D0D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F71CD69F2B6404EE00C9D0D7 /* Glance iOS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glance iOS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71CD6A32B6404EE00C9D0D7 /* Glance_iOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glance_iOS_AppTests.swift; sourceTree = "<group>"; };
+		F71CD6A92B6404EE00C9D0D7 /* Glance iOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glance iOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71CD6AD2B6404EE00C9D0D7 /* Glance_iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glance_iOS_AppUITests.swift; sourceTree = "<group>"; };
+		F71CD6AF2B6404EE00C9D0D7 /* Glance_iOS_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glance_iOS_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F71CD6BC2B64097300C9D0D7 /* WKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F71CD68A2B6404EA00C9D0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CD69C2B6404EE00C9D0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CD6A62B6404EE00C9D0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F71CD6842B6404EA00C9D0D7 = {
+			isa = PBXGroup;
+			children = (
+				F71CD68F2B6404EA00C9D0D7 /* Glance iOS App */,
+				F71CD6A22B6404EE00C9D0D7 /* Glance iOS AppTests */,
+				F71CD6AC2B6404EE00C9D0D7 /* Glance iOS AppUITests */,
+				F71CD68E2B6404EA00C9D0D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F71CD68E2B6404EA00C9D0D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71CD68D2B6404EA00C9D0D7 /* Glance iOS App.app */,
+				F71CD69F2B6404EE00C9D0D7 /* Glance iOS AppTests.xctest */,
+				F71CD6A92B6404EE00C9D0D7 /* Glance iOS AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71CD68F2B6404EA00C9D0D7 /* Glance iOS App */ = {
+			isa = PBXGroup;
+			children = (
+				F71CD6902B6404EA00C9D0D7 /* Glance_iOS_AppApp.swift */,
+				F71CD6922B6404EA00C9D0D7 /* ContentView.swift */,
+				F71CD6942B6404EA00C9D0D7 /* Item.swift */,
+				F71CD6962B6404EE00C9D0D7 /* Assets.xcassets */,
+				F71CD6982B6404EE00C9D0D7 /* Preview Content */,
+				F71CD6BC2B64097300C9D0D7 /* WKWebView.swift */,
+			);
+			path = "Glance iOS App";
+			sourceTree = "<group>";
+		};
+		F71CD6982B6404EE00C9D0D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F71CD6992B6404EE00C9D0D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F71CD6A22B6404EE00C9D0D7 /* Glance iOS AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F71CD6A32B6404EE00C9D0D7 /* Glance_iOS_AppTests.swift */,
+			);
+			path = "Glance iOS AppTests";
+			sourceTree = "<group>";
+		};
+		F71CD6AC2B6404EE00C9D0D7 /* Glance iOS AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F71CD6AD2B6404EE00C9D0D7 /* Glance_iOS_AppUITests.swift */,
+				F71CD6AF2B6404EE00C9D0D7 /* Glance_iOS_AppUITestsLaunchTests.swift */,
+			);
+			path = "Glance iOS AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F71CD68C2B6404EA00C9D0D7 /* Glance iOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71CD6B32B6404EE00C9D0D7 /* Build configuration list for PBXNativeTarget "Glance iOS App" */;
+			buildPhases = (
+				F71CD6892B6404EA00C9D0D7 /* Sources */,
+				F71CD68A2B6404EA00C9D0D7 /* Frameworks */,
+				F71CD68B2B6404EA00C9D0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glance iOS App";
+			productName = "Glance iOS App";
+			productReference = F71CD68D2B6404EA00C9D0D7 /* Glance iOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F71CD69E2B6404EE00C9D0D7 /* Glance iOS AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71CD6B62B6404EE00C9D0D7 /* Build configuration list for PBXNativeTarget "Glance iOS AppTests" */;
+			buildPhases = (
+				F71CD69B2B6404EE00C9D0D7 /* Sources */,
+				F71CD69C2B6404EE00C9D0D7 /* Frameworks */,
+				F71CD69D2B6404EE00C9D0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71CD6A12B6404EE00C9D0D7 /* PBXTargetDependency */,
+			);
+			name = "Glance iOS AppTests";
+			productName = "Glance iOS AppTests";
+			productReference = F71CD69F2B6404EE00C9D0D7 /* Glance iOS AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F71CD6A82B6404EE00C9D0D7 /* Glance iOS AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71CD6B92B6404EE00C9D0D7 /* Build configuration list for PBXNativeTarget "Glance iOS AppUITests" */;
+			buildPhases = (
+				F71CD6A52B6404EE00C9D0D7 /* Sources */,
+				F71CD6A62B6404EE00C9D0D7 /* Frameworks */,
+				F71CD6A72B6404EE00C9D0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71CD6AB2B6404EE00C9D0D7 /* PBXTargetDependency */,
+			);
+			name = "Glance iOS AppUITests";
+			productName = "Glance iOS AppUITests";
+			productReference = F71CD6A92B6404EE00C9D0D7 /* Glance iOS AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F71CD6852B6404EA00C9D0D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F71CD68C2B6404EA00C9D0D7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F71CD69E2B6404EE00C9D0D7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F71CD68C2B6404EA00C9D0D7;
+					};
+					F71CD6A82B6404EE00C9D0D7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F71CD68C2B6404EA00C9D0D7;
+					};
+				};
+			};
+			buildConfigurationList = F71CD6882B6404EA00C9D0D7 /* Build configuration list for PBXProject "Glance iOS App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F71CD6842B6404EA00C9D0D7;
+			productRefGroup = F71CD68E2B6404EA00C9D0D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F71CD68C2B6404EA00C9D0D7 /* Glance iOS App */,
+				F71CD69E2B6404EE00C9D0D7 /* Glance iOS AppTests */,
+				F71CD6A82B6404EE00C9D0D7 /* Glance iOS AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F71CD68B2B6404EA00C9D0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CD69A2B6404EE00C9D0D7 /* Preview Assets.xcassets in Resources */,
+				F71CD6972B6404EE00C9D0D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CD69D2B6404EE00C9D0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CD6A72B6404EE00C9D0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F71CD6892B6404EA00C9D0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CD6932B6404EA00C9D0D7 /* ContentView.swift in Sources */,
+				F71CD6BD2B64097300C9D0D7 /* WKWebView.swift in Sources */,
+				F71CD6952B6404EA00C9D0D7 /* Item.swift in Sources */,
+				F71CD6912B6404EA00C9D0D7 /* Glance_iOS_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CD69B2B6404EE00C9D0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CD6A42B6404EE00C9D0D7 /* Glance_iOS_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CD6A52B6404EE00C9D0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CD6B02B6404EE00C9D0D7 /* Glance_iOS_AppUITestsLaunchTests.swift in Sources */,
+				F71CD6AE2B6404EE00C9D0D7 /* Glance_iOS_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F71CD6A12B6404EE00C9D0D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71CD68C2B6404EA00C9D0D7 /* Glance iOS App */;
+			targetProxy = F71CD6A02B6404EE00C9D0D7 /* PBXContainerItemProxy */;
+		};
+		F71CD6AB2B6404EE00C9D0D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71CD68C2B6404EA00C9D0D7 /* Glance iOS App */;
+			targetProxy = F71CD6AA2B6404EE00C9D0D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F71CD6B12B6404EE00C9D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F71CD6B22B6404EE00C9D0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F71CD6B42B6404EE00C9D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glance iOS App/Preview Content\"";
+				DEVELOPMENT_TEAM = 44D6B785K3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PassiveIncomeConsultingLLC.Glance-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F71CD6B52B6404EE00C9D0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glance iOS App/Preview Content\"";
+				DEVELOPMENT_TEAM = 44D6B785K3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PassiveIncomeConsultingLLC.Glance-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F71CD6B72B6404EE00C9D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44D6B785K3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PassiveIncomeConsultingLLC.Glance-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glance iOS App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glance iOS App";
+			};
+			name = Debug;
+		};
+		F71CD6B82B6404EE00C9D0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44D6B785K3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PassiveIncomeConsultingLLC.Glance-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glance iOS App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glance iOS App";
+			};
+			name = Release;
+		};
+		F71CD6BA2B6404EE00C9D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44D6B785K3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PassiveIncomeConsultingLLC.Glance-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Glance iOS App";
+			};
+			name = Debug;
+		};
+		F71CD6BB2B6404EE00C9D0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44D6B785K3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PassiveIncomeConsultingLLC.Glance-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Glance iOS App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F71CD6882B6404EA00C9D0D7 /* Build configuration list for PBXProject "Glance iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CD6B12B6404EE00C9D0D7 /* Debug */,
+				F71CD6B22B6404EE00C9D0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71CD6B32B6404EE00C9D0D7 /* Build configuration list for PBXNativeTarget "Glance iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CD6B42B6404EE00C9D0D7 /* Debug */,
+				F71CD6B52B6404EE00C9D0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71CD6B62B6404EE00C9D0D7 /* Build configuration list for PBXNativeTarget "Glance iOS AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CD6B72B6404EE00C9D0D7 /* Debug */,
+				F71CD6B82B6404EE00C9D0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71CD6B92B6404EE00C9D0D7 /* Build configuration list for PBXNativeTarget "Glance iOS AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CD6BA2B6404EE00C9D0D7 /* Debug */,
+				F71CD6BB2B6404EE00C9D0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F71CD6852B6404EA00C9D0D7 /* Project object */;
+}
